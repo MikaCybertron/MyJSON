@@ -22,7 +22,9 @@ public class Config
 	
 	private static void ExampleUsage()
 	{
-		Example example = new Example
+		string PathFile = Directory.GetCurrentDirectory() + "\\Test.json";
+		
+		Example exampleObject = new Example
 		{
 			Name = "Mika Cybertron",
 			Gender = "Male",
@@ -30,12 +32,12 @@ public class Config
 		};
 		
 		// Create Json file with correct Format
-		MyJSON.Create(example, "Test.json");
+		MyJSON.Create(exampleObject, PathFile);
 		
 		// Update Value for Specific Key / Token in Json File
-		MyJSON.Update("Name", "Platinmods"); // value string
+		MyJSON.Update("Name", "Platinmods", PathFile); // value string
 		
-		MyJSON.Update("Age", 6); // value int
+		MyJSON.Update("Age", 6, PathFile); // value int
 	}
 }
 ```
