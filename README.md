@@ -42,7 +42,7 @@ public class Config
 }
 ```
 
-# Use this site to Create C# Items / Object for your JSON
+# Use this site to Create C# C# Classes for your JSON
 Link Site: [Convert Json to C# Classes Online](https://json2csharp.com/)
 - Example:
 ```json
