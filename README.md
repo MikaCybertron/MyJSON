@@ -20,7 +20,7 @@ public class Config
 		public int Age { get; set; }
 	}
 	
-	private static void ExampleUsage()
+	public static void ExampleUsage()
 	{
 		string PathFile = Directory.GetCurrentDirectory() + "\\Test.json";
 		
