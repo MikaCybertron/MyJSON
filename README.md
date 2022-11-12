@@ -1,5 +1,5 @@
 # Description
-Create JSON Object and Update Value JSON File in C# easily
+Create JSON Object and Update Value in JSON Files easily with C#
 
 # How to Use
 - First install NuGet
